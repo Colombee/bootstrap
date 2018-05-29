@@ -1,4 +1,5 @@
 body{
+    text-align: none;
 }
 
 /* navbar */
@@ -7,31 +8,28 @@ body{
 }
 
 /* accueil jumbotron */
-.fond {
-    position: fixed; /* Le fond est fixé en haut de la page */
-    width: 100%; /* Il occupe toute la largeur de l'écran */
-    height: 500px; /* On met ici la même hauteur que le jumbotron */
-    left: 0;
-    z-index: -1;
+
+.h1, h1 {
+    font-size: 4.00rem;
 }
 
 .jumbotron {
     margin-bottom: Opx;
-    height: 500px;
+    height: 550px;
     color: white; /* Le texte sera affiché en blanc */
-    text-shadow: black 0.3em 0.3em 0.3em;
-    background-image: url('Imagesp/planche3.jpg');
+    text-shadow: black 0.1em 0.1em 0.1em;
+    background-image: url('Imagesd/Steakosaure_grill.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-p .jumbotron{
-    text-align: right;
+.jumbotron-h1{
+    margin-bottom: 20px;
+    margin-left: 25%;
 }
 
 .jumbotext{
-       margin-left: 30%;
-       top: 50px;
+    margin-top: 100px;
 }
 
 /* badges */
@@ -47,4 +45,12 @@ p .jumbotron{
     border-color: rgb(114, 84, 6);
 }
 
+.list-group{
+    text-align: center;
+}
+
+/* gallerie photo  */
+.photos{
+    text-align: center;
+}
 
