@@ -2,12 +2,8 @@ body{
 }
 
 /* navbar */
-nav{
-    text-align: right;
-}
-
-container{
-
+.navbar{
+    padding-left: 30%;
 }
 
 /* accueil jumbotron */
@@ -29,9 +25,18 @@ container{
     background-size: cover;
 }
 
+p .jumbotron{
+    text-align: right;
+}
+
 .jumbotext{
        margin-left: 30%;
        top: 50px;
+}
+
+/* badges */
+.badge-secondary{
+    align-items: right;
 }
 
 /* panneaux */
@@ -41,3 +46,5 @@ container{
     background-image: none;
     border-color: rgb(114, 84, 6);
 }
+
+
