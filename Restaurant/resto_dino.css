@@ -52,5 +52,7 @@ body{
 /* gallerie photo  */
 .photos{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
