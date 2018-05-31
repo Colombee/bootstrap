@@ -7,6 +7,14 @@ body{
     padding-left: 30%;
 }
 
+.navbar-toggler{
+
+}
+
+.logo{
+    height: 40px;
+}
+
 /* accueil jumbotron */
 
 .h1, h1 {
