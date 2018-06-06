@@ -14,7 +14,7 @@
         "sizes": "512x512",
         "type": "image/png"
       }],
-    "start_url": "/Restaurant/resto_dino.html",
+    "start_url": "./resto_dino.html",
     "display": "standalone",
     "background_color": "#099912",
     "scope":"/Restaurant/",
