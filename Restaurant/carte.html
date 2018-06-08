@@ -131,19 +131,20 @@
         </div>
     </container>
 
-        <footer>
-            <h6>© Steakosaure Group</h6>
-        </footer>
+    <footer>
+        <h6>© Steakosaure Group</h6>
+    </footer>
 
-        <script type="text/javascript" src="resto_dino.js"></script>
-        <script type="text/javascript" src="service-worker.js"></script>
-        <script>
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker
+    <script type="text/javascript" src="resto_dino.js" defer></script>
+    <script type="text/javascript" src="service-worker.js" defer></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
                 .register('./service-worker.js')
                 .then(function() { console.log('Service Worker Registered'); });
-        }
-        </script>
+    }
+    defer
+    </script>
 
     </body>
 </html>
